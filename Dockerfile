@@ -1,4 +1,4 @@
-FROM quay.io/repository/prometheus/golang-builder:latest AS build
+FROM quay.io/prometheus/golang-builder:latest AS build
 COPY . /go/build
 WORKDIR /go/build
 
